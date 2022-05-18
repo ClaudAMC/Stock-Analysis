@@ -19,6 +19,8 @@ The refactored code did not have nested loops instead it had 3 seperate loops, a
 
 These changes in the refactored allowed the analysis to run more efficiently and there by decreasing the execution time.
 
+## Results
+
 ### Analysis of 2017 Stocks: Original vs Refactored
 
 The original code results in a slower execution time as seen in the image below.
@@ -42,4 +44,6 @@ The refactored code results in a faster execution time as seen in the image belo
 ### Comparing 2017 to 2018 Stocks
 
 By looking at the images above we can also compare the return for each stock in each year and how they differed. We can see that in 2017 most of the stocks had a positive return. In fact all stocks except TERP had a positive return with stocks DQ, ENPH, FSLR, and SEDG all having more than a 100% return. This did not stay true for the year 2018. In 2018 only two stocks had a positive return: ENPH, and RUN. All other stocks had a negative return. From this we can draw out the conclusion that the stock ENPH may be worth investing in since it had high positive returns for two years in a row: 129.5% in 2017 and 81.9% in 2018. The RUN stock may also be a good investment however, the magnitude of this positive return may not be as certain as the return was only 5.5% in 2017 but increased to 84% in 2018. This may indicate a positive trend for this stock however, it may also mean the stock is more volatile. As a preliminary conclusion I would  suggest that steve look at investing into ENPH or RUN with his parents however, if possible, I would sugest looking at more years to be able to draw a more accurate trend for both of these stocks.
+
+## Summary
 
