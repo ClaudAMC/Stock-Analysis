@@ -47,3 +47,14 @@ By looking at the images above we can also compare the return for each stock in 
 
 ## Summary
 
+### Advantages and Disadvantages of Refactoring Code
+
+The advantage of refactoring code is that it makes a cleanert and more efficient code. This code also tends to be more readable and reusable. If another person wants to take a look at the code they should not find it too hard to read and understand as it is intended to streamline processes. The code should run more efficiently as well meaning larger datasets should not take as long to analyze.
+
+One disadvantage of refactoring code is that is can be time consuming, there is no way to know how long this process may take and in some cases you wont have the opportunity to take the time necessary to refactor the code. Also, when refactoring the code it is possible to make mistakes where the code no longer works as intended; in this case it may take a while to solve where the mistake is occuring, once again making this process time consuming.
+
+### Advantages and Disadvantages of this Original vs Refactored Script
+
+The advantage of the original script is that there are less arrays and variables to create and keep track of. This makes the overall code, at face value, easier to keep track of. The disadvantage to this is that once the code becomes more complex or the dataset larger this is no longer an advantage. Since each variable is set and there is more reliance on set values, as opposed to the code finding these vairables for its self and resetting, with larger data sets the code will take longer to execute and may become quite confusing. Particularly if it needs to be replicated and adapted to a new larger data set.
+
+The advantage of the refactored script, therefore, is that it makes the analysis smoother. It takes less time to execute and it can be used for larger datasets where the arrays can be modified or expanded for as many different variables as necessary. This advantage is clear when comparing the execution times between the original vs refactored code shown in the images above.
